@@ -31,7 +31,7 @@ def help():
         print("get_name() : affiche votre prenom")
 
 def version():
-    version_name = "aplha 0.01"
+    version_name = "alpha 0.01"
     print("         ______________________________________")
     print("   ")
     print(f"         Version de l'assistant : {version_name}")
