@@ -1,6 +1,6 @@
 import datetime
 from math import pi
-
+#Release No.2, version alpha 0.02 full, no-IA, uploaded by the official github project owner. for more info, check https://github.com/Dan149/Tom-assistant
 prenom = input("Entrez votre prénom: ")
 tutoyer = input("Voulez vous être tutoyé ? Si oui, marquez 'oui': ")
 if (tutoyer == "oui"):
@@ -23,6 +23,7 @@ def help():
     print("fahrenheit_to_celsius() : permet de convertir les °F en °C")
     print("celsius_to_fahrenheit() : permet de convertir les °C en °F")
     print("get_circle_circumference() : permet de calculer la circonférence d'un cercle")
+    print("get_average() : permet de calculer la moyenne de plusieurs nombres")
     print("credits() : Voir les crédits du logiciel (en anglais)")
     print("github() : Lien vers le Github du créateur")
     if (tutoyer == "oui"):
@@ -31,11 +32,10 @@ def help():
         print("get_name() : affiche votre prenom")
 
 def version():
-    version_name = "alpha 0.01"
+    version_name = "alpha 0.02"
     print("         ______________________________________")
-    print("   ")
+    print("")
     print(f"         Version de l'assistant : {version_name}")
-    print("   ")
     print("         ______________________________________")
    
 def get_name():
@@ -87,11 +87,31 @@ def get_circle_circumference():
     circle_radius = float(circle_radius_str)
     circonf = pi * 2 * circle_radius
     print(f"Circonférence du cercle: {circonf} {mesure_unit}")
+    
+def get_average():
+    num_list = []
+    enter_num_str = input("Entrer un nombre: ")
+    enter_num = float(enter_num_str)
+    num_list.append(enter_num)
+    another = input("En entrer un autre ? 'oui'/'non' ")
+    while (another == "oui"):
+        enter_num_str = input("Entrer un nombre: ")
+        enter_num = float(enter_num_str)
+        num_list.append(enter_num)
+        another = input("En entrer un autre ? 'oui'/'non' ")
+    average = sum(num_list) / len(num_list)
+    print(f"Moyenne: {average}")
+    
+def 
 
 def credits():
+    print("__________________________")
+    print("")
     print("Created by: Falkov Daniel.")
     print("MIT license, free to use.")
     print("__________________________")
 
 def github():
     print("Le Github de mon créateur: https://github.com/Dan149")
+
+
