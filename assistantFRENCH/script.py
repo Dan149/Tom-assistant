@@ -1,15 +1,15 @@
+#!usr/bin/python3
 import datetime
 from math import pi
-#Release No.2, version alpha 0.02 full, no-IA, uploaded by the official github project owner. for more info, check https://github.com/Dan149/Tom-assistant
+#Release No.3, version alpha 0.02 full, no-IA, uploaded by the official github project owner. for more info, check https://github.com/Dan149/Tom-assistant
 prenom = input("Entrez votre prénom: ")
 tutoyer = input("Voulez vous être tutoyé ? Si oui, marquez 'oui': ")
 if (tutoyer == "oui"):
     print(f"Bienvenue {prenom}, je suis Tom, ton assistant artificiel !")
-    print("Pour afficher mes fonctionnalités, entre la commande help()")
+
 else:
     print("Bienvenue Monsieur, je suis Tom, votre assistant artificiel !")
-    print("Pour afficher mes fonctionnalités, entrez la commande help()")
-    
+
 def help():
     if (tutoyer == "oui"):
         print(f"{prenom}, voici les fonctionnalités disponibles:")
@@ -26,13 +26,14 @@ def help():
     print("get_average() : permet de calculer la moyenne de plusieurs nombres")
     print("credits() : Voir les crédits du logiciel (en anglais)")
     print("github() : Lien vers le Github du créateur")
+    print("main() : répertoire de lancemant des modules")
     if (tutoyer == "oui"):
         print("get_name() : affiche ton prenom")
     else:
         print("get_name() : affiche votre prenom")
 
 def version():
-    version_name = "alpha 0.02"
+    version_name = "alpha 0.03"
     print("         ______________________________________")
     print("")
     print(f"         Version de l'assistant : {version_name}")
@@ -101,8 +102,6 @@ def get_average():
         another = input("En entrer un autre ? 'oui'/'non' ")
     average = sum(num_list) / len(num_list)
     print(f"Moyenne: {average}")
-    
-def 
 
 def credits():
     print("__________________________")
@@ -114,4 +113,55 @@ def credits():
 def github():
     print("Le Github de mon créateur: https://github.com/Dan149")
 
-
+def main():
+    start = input("""\nModules : \n
+    1- afficher les informations concernants les modules (dev) \r 
+    2- afficher la version du logiciel \r
+    3- afficher la date et l'heure \r
+    4- convertir un nombre en son équivalent scientifique \r
+    5- calculer la temperature ressentie \r
+    6- °F --> °C \r
+    7- °C --> °F \r
+    8- calculer la circonference d'un cercle
+    9- calculer une moyenne
+    10- crédits
+    11- Github
+    \nEntrer un nombre: \n
+    """)
+    if start == '1':
+        help()
+    elif start == '2':
+        version()
+        main()
+    elif start == '3':
+        get_datetime()
+        main()
+    elif start == '4':
+        get_sci_number()
+        main()
+    elif start == '5':
+        get_ftemp()
+        main()
+    elif start == '6':
+        fahrenheit_to_celsius()
+        main()
+    elif start == '7':
+        celsius_to_fahrenheit()
+        main()
+    elif start == '8':
+        get_circle_circumference()
+        main()
+    elif start == '9':
+        get_average()
+        main()
+    elif start == '10':
+        credits()
+        main()
+    elif start == '11':
+        github()
+        main()
+    else:
+        print("ERROR: module not found.")
+        main()
+    
+main()
