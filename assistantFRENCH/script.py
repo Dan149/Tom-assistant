@@ -4,11 +4,11 @@ from math import pi
 #Release No.3, version alpha 0.02 full, no-IA, uploaded by the official github project owner. for more info, check https://github.com/Dan149/Tom-assistant
 prenom = input("Entrez votre prénom: ")
 tutoyer = input("Voulez vous être tutoyé ? Si oui, marquez 'oui': ")
-if (tutoyer == "oui"):
-    print(f"Bienvenue {prenom}, je suis Tom, ton assistant artificiel !")
+if (tutoyer == 'oui'):
+    print(f"\nBienvenue {prenom}, je suis Tom, ton assistant artificiel !")
 
 else:
-    print("Bienvenue Monsieur, je suis Tom, votre assistant artificiel !")
+    print("\nBienvenue Monsieur, je suis Tom, votre assistant artificiel !")
 
 def help():
     if (tutoyer == "oui"):
@@ -34,88 +34,89 @@ def help():
 
 def version():
     version_name = "alpha 0.03"
-    print("         ______________________________________")
+    print("\n         ______________________________________")
     print("")
     print(f"         Version de l'assistant : {version_name}")
     print("         ______________________________________")
    
 def get_name():
-    print(f"Votre prénom est {prenom}.")
+    print(f"\nVotre prénom est {prenom}.")
     
 def get_datetime():
-    print ('Date & heure actuelle: {}'.format(datetime.datetime.now()))
+    print ('\nDate & heure actuelle: {}'.format(datetime.datetime.now()))
     
 def get_sci_number():
     if (tutoyer == "oui"):
-        number_str = input("Entre le nombre qui sera converti en nombre scientifique: ")
+        number_str = input("\nEntre le nombre qui sera converti en nombre scientifique: ")
     else:
-        number_str = input("Entrez le nombre qui sera converti en nombre scientifique: ")
+        number_str = input("\nEntrez le nombre qui sera converti en nombre scientifique: ")
     number = float(number_str)
     exposant = 0
-    if (number > 1):
-        while (number > 10):
-            number = number / 10
-            exposant = exposant + 1
     if (number < 1):
         while (number < 1): 
             number = number * 10 
             exposant = exposant - 1
-    print(f"{number} x 1O Exposant : {exposant}.")
+    if (number > 1):
+        while (number > 10):
+            number = number / 10
+            exposant = exposant + 1
+    print(f"\n{number} x 1O Exposant : {exposant}.")
     
 def get_ftemp():
-    wind_speed_str = input("Vitesse du vent en km/h: ")
-    temp_str = input("Température réelle en Celsius: ")
+    wind_speed_str = input("\nVitesse du vent en km/h: ")
+    temp_str = input("\nTempérature réelle en Celsius: ")
     wind_speed = float(wind_speed_str)
     temp = float(temp_str)
     ftemp_equation = 13.12 + 0.6215 * temp + (0.3965 * temp - 11.37) * pow(wind_speed, 0.16)
-    print(f"La température ressentie est: {ftemp_equation}")
+    print(f"\nLa température ressentie est: {ftemp_equation}")
     
 def fahrenheit_to_celsius():
-    tf_str = input("Température en Fahrenheit: ")
+    tf_str = input("\nTempérature en Fahrenheit: ")
     tf = float(tf_str)
     tmp_celsius = (tf - 32) / 1.8
-    print(f"Le résultat de la conversion °F --> °C est: {tmp_celsius}")
+    print(f"\nLe résultat de la conversion °F --> °C est: {tmp_celsius}")
 
 def celsius_to_fahrenheit():
-    tc_str = input("Température en Celsius: ")
+    tc_str = input("\nTempérature en Celsius: ")
     tc = float(tc_str)
     tmp_fahrenheit = 1.8 * tc + 32
-    print(f"Le résultat de la conversion °C --> °F est: {tmp_fahrenheit}")
+    print(f"\nLe résultat de la conversion °C --> °F est: {tmp_fahrenheit}")
     
 def get_circle_circumference():
-    mesure_unit = input("Unité de mesure (cm, m...): ")
+    mesure_unit = input("\nUnité de mesure (cm, m...): ")
     circle_radius_str = input(f"Rayon du cercle en {mesure_unit}: ")
     circle_radius = float(circle_radius_str)
     circonf = pi * 2 * circle_radius
-    print(f"Circonférence du cercle: {circonf} {mesure_unit}")
+    print(f"\nCirconférence du cercle: {circonf} {mesure_unit}")
     
 def get_average():
     num_list = []
-    enter_num_str = input("Entrer un nombre: ")
+    enter_num_str = input("\nEntrer un nombre: ")
     enter_num = float(enter_num_str)
     num_list.append(enter_num)
-    another = input("En entrer un autre ? 'oui'/'non' ")
+    another = input("\nEn entrer un autre ? 'oui'/'non' ")
     while (another == "oui"):
-        enter_num_str = input("Entrer un nombre: ")
+        enter_num_str = input("\nEntrer un nombre: ")
         enter_num = float(enter_num_str)
         num_list.append(enter_num)
-        another = input("En entrer un autre ? 'oui'/'non' ")
+        another = input("\nEn entrer un autre ? 'oui'/'non' ")
     average = sum(num_list) / len(num_list)
-    print(f"Moyenne: {average}")
+    print(f"\nMoyenne: {average}")
 
 def credits():
-    print("__________________________")
+    print("\n__________________________")
     print("")
     print("Created by: Falkov Daniel.")
     print("MIT license, free to use.")
     print("__________________________")
 
 def github():
-    print("Le Github de mon créateur: https://github.com/Dan149")
+    print("\nLe Github de mon créateur: https://github.com/Dan149")
 
 def main():
+    print("\nWARNING: the fourth option 'get_sci_number()' may not work.\n")
     start = input("""\nModules : \n
-    1- afficher les informations concernants les modules (dev) \r 
+    1- afficher les informations concernant les modules (dev) \r 
     2- afficher la version du logiciel \r
     3- afficher la date et l'heure \r
     4- convertir un nombre en son équivalent scientifique \r
@@ -126,6 +127,7 @@ def main():
     9- calculer une moyenne
     10- crédits
     11- Github
+    12- éteindre l'assistant
     \nEntrer un nombre: \n
     """)
     if start == '1':
@@ -160,8 +162,11 @@ def main():
     elif start == '11':
         github()
         main()
+    elif start == '12':
+        quit()
     else:
-        print("ERROR: module not found.")
+        print("\nERROR: module not found.")
         main()
     
 main()
+
