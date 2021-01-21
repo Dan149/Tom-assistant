@@ -23,7 +23,7 @@ def help():
     print("get_name() : display your name")
 
 def version():
-    version_name = "alpha 0.04"
+    version_name = "alpha 0.03"
     print("\n         ______________________________________")
     print("")
     print(f"         Version : {version_name}")
