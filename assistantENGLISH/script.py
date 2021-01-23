@@ -5,10 +5,14 @@ from math import pi
 #Release No.3, version alpha 0.02 full, no-IA, uploaded by the official github project owner. for more info, check https://github.com/Dan149/Tom-assistant
 name = input("Enter your name: ")
 print(f"\nWelcome {name}, I'm Tom, your artificial assistant !")
+print("\nWARNING: the fourth option 'get_sci_number()' may not work.\n")
+
+def update_name():
+    name = input("Enter new name: ")
 
 def help():
 
-    print(f"{prenom}, those are the avalaible fonctionalities:\n")
+    print(f"{name}, those are the avalaible fonctionalities:\n")
     print("version() : display the assistant's version")
     print("get_datetime() : display the date and the time")
     print("get_sci_number : convert a simple number into scientific number")
@@ -23,15 +27,15 @@ def help():
     print("get_name() : display your name")
 
 def version():
-    version_name = "alpha 0.03"
+    version_name = "alpha 0.05"
     print("\n         ______________________________________")
     print("")
     print(f"         Version : {version_name}")
     print("         ______________________________________")
    
 def get_name():
-    print(f"\nVotre prénom est {prenom}.")
-    
+    print(f"\nVotre prénom est {name}.")
+
 def get_datetime():
     print ('\nDate & time: {}'.format(datetime.datetime.now()))
     
@@ -101,24 +105,25 @@ def github():
     print("\nThe Github of my creator: https://github.com/Dan149")
 
 def main():
-    print("\nWARNING: the fourth option 'get_sci_number()' may not work.\n")
     start = input("""\nModules : \n
-    1- display the informations about the modules (dev) \r 
-    2- display the program version \r
-    3- display the date and the time \r
-    4- convert a number in scientific number \r
-    5- calculate feeled temperature \r
-    6- convert °F --> °C \r
-    7- convert °C --> °F \r
+    1- display the informations about the modules 
+    2- display the program version 
+    3- display the date and the time 
+    4- convert a number in scientific number 
+    5- calculate feeled temperature 
+    6- convert °F --> °C 
+    7- convert °C --> °F 
     8- calculate a circle's circumference
     9- calculate an average
     10- credits
     11- Github
-    12- Exit
-    \nSelect: \n
+    12- update your name
+    E- Exit
+    \nSelect: 
     """)
     if start == '1':
         help()
+        main()
     elif start == '2':
         version()
         main()
@@ -150,6 +155,9 @@ def main():
         github()
         main()
     elif start == '12':
+        update_name()
+        main()
+    elif start == 'E' or 'e' or 'exit' or 'quit':
         quit()
     else:
         print("\nERROR: module not found.")
