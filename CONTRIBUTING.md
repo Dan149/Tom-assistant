@@ -2,4 +2,4 @@ If you want to contribute to the project, you can fix the Issues from https://gi
 You can also fix bugs and errors, or improve the security when it will be necessary.
 If you find critical security breach, please contact me on this mail: **danfaldev@gmail.com**.
 
-**When you publish a modified version of the program, please remove the code l17 "uploaded by the official github project owner", instead, you can write "uploaded by a github contributor".**
+**When you publish a modified version of the program, please remove the code l. 17 "uploaded by the official github project owner", instead, you can write "uploaded by a github contributor".**
