@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------
-						COPYRIGHT Daniel Falkov 2021						
+                       COPYRIGHT Daniel Falkov 2021						
 ----------------------------------------------------------------------------
 
 Thanks to : Excomptix Team, check http://www.excomptix.byethost24.com.
@@ -22,7 +22,7 @@ email (only for professional purpose): danfaldev@gmail.com
 Twitter: daniel_fkv
 Github: Dan149
 
-_____________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________________________________
 
 FRENCH VERSION OF THE README FILE / WHITE PAPER FOR THE FRENCH DEVELOPERS :
 
@@ -45,7 +45,7 @@ Une IA est en cours de développement, mais une aide serait appréciée, pour l'
 au point mort, pour les plus courageux, je peux vous fournir le prototype que j'ai commencé (il utilise le module Tkinter), pour prendre contact,
 écrivez moi un mail à l'adresse suivante : danfaldev@gmail.com
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Vous pouvez utiliser et modifier ce programme dans un but non lucratif,  les noms et groupes sités dans la fonction credits() doivent figurer dans une partie facilement accessible du programme.
 Moi, une personne quelquonque ou un groupe sité dans les crédits ne sommes responsables de la manière dont ce programme est utilisé,
