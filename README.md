@@ -16,6 +16,13 @@ Twitter: **daniel_fkv**
 Github: **Dan149**
 
 _____________________________________________________________________________
+The names and groups located in the credits () function must appear in an easily accessible part of the program.
+Me, any person or group listed in the credits are not responsible for how this program is used,
+all external sites whose links may appear in the program are not our responsibility,
+we are not responsible for viruses or dangerous, violent or offensive content that these sites may contain.
+Github contributors may have modified this program, if it is not published by Dan149, it's unofficial and may contain viruses,
+contributions are checked regularly and secure unofficial versions may be included in the program official (published by Dan149).
+_____________________________________________________________________________
 
 FRENCH VERSION OF THE README FILE / WHITE PAPER FOR THE FRENCH DEVELOPERS :
 
@@ -34,7 +41,7 @@ Une IA est en cours de développement, mais une aide serait appréciée, pour l'
 au point mort, pour les plus courageux, je peux vous fournir le prototype que j'ai commencé (il utilise le module Tkinter), pour prendre contact,
 écrivez moi un mail à l'adresse suivante : danfaldev@gmail.com
 
----------------------------------------------------------------------------------------------------------------------------------------------------------
+_____________________________________________________________________________
 
   Les noms et groupes sités dans la fonction credits() doivent figurer dans une partie facilement accessible du programme.
 Moi, une personne quelquonque ou un groupe sité dans les crédits ne sommes responsables de la manière dont ce programme est utilisé,
