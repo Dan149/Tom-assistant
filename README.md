@@ -12,6 +12,7 @@ you can send donations to this bitcoin adress : **bc1qd8qgl4mzwr396qp224dajdycrf
 this would help me a lot ;)
 
 email (only for professional purpose): danfaldev@gmail.com
+
 Twitter: **daniel_fkv**
 Github: **Dan149**
 
