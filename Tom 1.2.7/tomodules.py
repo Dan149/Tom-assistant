@@ -554,4 +554,4 @@ def testbox():
     try:
         community_mods.exemple()
     except:
-        pass
+        print("ERROR: no code inside the 'testbox()' function.")
