@@ -6,7 +6,7 @@ Start Tom Assistant by running 'script.py'.
 
 Hey ! 
 Thank you for downloading Tom Assistant, I hope you'll love it !
-Sorry if my english is a little bit bad, I'm french so I'm doing my best to avoid grammatical errors :)
+Sorry if my english is a little bit bad, I'm french so I'm doing my best to avoid grammatical mistakes :)
 
 you can send donations to this bitcoin adress : **bc1qd8qgl4mzwr396qp224dajdycrfruvqgstejvht**
 this would help me a lot ;)
