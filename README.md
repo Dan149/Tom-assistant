@@ -8,7 +8,7 @@ Hey !
 Thank you for downloading Tom Assistant, I hope you'll love it !
 Sorry if my english is a little bit bad, I'm french so I'm doing my best to avoid grammatical mistakes :)
 
-you can send donations to this bitcoin adress : **bc1qd8qgl4mzwr396qp224dajdycrfruvqgstejvht**
+you can send donations to this bitcoin address : **bc1qd8qgl4mzwr396qp224dajdycrfruvqgstejvht**
 this would help me a lot ;)
 
 email (only for professional purpose): danfaldev@gmail.com
