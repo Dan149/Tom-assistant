@@ -1,0 +1,6 @@
+v1.2.8 :
+	- in 'Chat' class, 'math_repertory' function --> quit patch
+	- verification of the math functions, no mistakes found
+	- added new features to the Chat.tom() function
+	- added new kindness parameters
+	- added a change text color option for Windows
