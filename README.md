@@ -17,7 +17,7 @@ Twitter: **daniel_fkv**
 Github: **Dan149**
 
 _____________________________________________________________________________
-The names and groups located in the credits () function must appear in an easily accessible part of the program.
+The names and groups located in the 'credits()' function must appear in an easily accessible part of the program.
 Me, any person or group listed in the credits are not responsible for how this program is used,
 all external sites whose links may appear in the program are not our responsibility,
 we are not responsible for viruses or dangerous, violent or offensive content that these sites may contain.
