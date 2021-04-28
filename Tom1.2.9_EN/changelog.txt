@@ -1,4 +1,4 @@
-v1.2.8 :
+v1.2.9 :
 	- in 'Chat' class, 'math_repertory' function --> quit patch
 	- verification of the math functions, no mistakes found
 	- added new features to the Chat.tom() function
