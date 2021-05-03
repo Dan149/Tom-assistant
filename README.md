@@ -1,6 +1,6 @@
-----------------------------------------------------------------------------------------------------------------------------
+
 		COPYRIGHT Daniel Falkov 2021	MIT license, check https://github.com/Dan149/Tom-assistant/blob/main/LICENSE
-----------------------------------------------------------------------------------------------------------------------------
+
 
 Thanks to : Excomptix Team, check http://www.excomptix.byethost24.com.
 
