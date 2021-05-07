@@ -4,7 +4,7 @@ COPYRIGHT Daniel Falkov 2021
 <a href="https://github.com/Dan149/Tom-assistant/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?label=License&style=flat" /></a>
 <a href="https://twitter.com/daniel_fkv"><img src="https://img.shields.io/twitter/follow/daniel_fkv?label=Follow&style=social" /></a>
 
-Start Tom Assistant by running 'script.py', for more informations, you can check the <a href="https://github.com/Dan149/Tom-assistant/wiki">project wiki</a>.
+Start Tom Assistant by running 'script.py', for more informations, you can check the <a href="https://github.com/Dan149/Tom-assistant/wiki/installation">project wiki</a>.
 
 Hey !
 Thank you for downloading Tom Assistant, I hope you'll like it !
