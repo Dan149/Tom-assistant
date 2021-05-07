@@ -1,5 +1,7 @@
 
-	COPYRIGHT Daniel Falkov 2021	MIT license, check https://github.com/Dan149/Tom-assistant/blob/main/LICENSE
+COPYRIGHT Daniel Falkov 2021 
+
+<a href="https://github.com/Dan149/Tom-assistant/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?label=License&style=flat" /></a>
 
 Thanks to : Excomptix Team, check http://www.excomptix.byethost24.com.
 
