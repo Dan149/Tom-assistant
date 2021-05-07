@@ -2,6 +2,7 @@
 COPYRIGHT Daniel Falkov 2021 
 
 <a href="https://github.com/Dan149/Tom-assistant/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?label=License&style=flat" /></a>
+<a href="https://twitter.com/daniel_fkv"><img src="https://img.shields.io/twitter/follow/daniel_fkv?label=Follow&style=social" /></a>
 
 Thanks to : Excomptix Team, check http://www.excomptix.byethost24.com.
 
