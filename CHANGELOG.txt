@@ -6,13 +6,16 @@ v1.2.9 :
 	- added a change text color option for Windows
 	
 In the v1.3.0 update (beta version on gitlab):
-	-history of the commands
-	-Settings panel
-	-reorganization of the self.tom() function use in the Chat() class
-	-enable / disable the banner display on start (enabled by default)
-	-new kindness parameters
-	-Tom is now interacting with the settings.conf file
+	- history of the commands
+	- Settings panel
+	- reorganization of the self.tom() function use in the Chat() class
+	- enable / disable the banner display on start (enabled by default)
+	- new kindness parameters
+	- Tom is now interacting with the settings.conf file
 	- added a disable browser openning option in the settings
 	- the program save your command history in the 'history.txt' file and load it on start
 	- new answers
 	- minor changes in the menu
+	- Adventure game of Tom assistant
+	- b???? game
+	- password generator
