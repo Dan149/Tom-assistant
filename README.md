@@ -6,11 +6,11 @@ COPYRIGHT Daniel Falkov 2021
 [![OS](https://img.shields.io/badge/Tested%20on-Linux%20|%20Windows%20|%20Android%20Termux-red.svg)](https://www.linux.com/what-is-linux/)
 <a href="https://twitter.com/daniel_fkv"><img src="https://img.shields.io/twitter/follow/daniel_fkv?label=Follow&style=social" /></a>
 
-Start Tom Assistant by running 'script.py', for more informations, you can check the <a href="https://github.com/Dan149/Tom-assistant/wiki/installation">project wiki</a>.
+Start Tom Assistant by running 'script.py', for more informations, you can check the <a href="https://github.com/Dan149/Tom-assistant/wiki/">project wiki</a>.
 
 Hey !
 Thank you for downloading Tom Assistant, I hope you'll like it !
-Sorry if my English is a little bit bad, I'm French so I'm doing my best to avoid grammatical mistakes :)
+Sorry if my English is a little bit bad, I'm French so I'm doing my best to avoid grammar mistakes :)
 
 you can send donations to this bitcoin address : bc1qd8qgl4mzwr396qp224dajdycrfruvqgstejvht
 this would help me a lot ;)
