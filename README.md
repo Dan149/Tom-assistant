@@ -6,7 +6,7 @@ COPYRIGHT Daniel Falkov 2021
 [![OS](https://img.shields.io/badge/Tested%20on-Linux%20|%20Windows%20|%20Android%20Termux-red.svg)](https://www.linux.com/what-is-linux/)
 <a href="https://twitter.com/daniel_fkv"><img src="https://img.shields.io/twitter/follow/daniel_fkv?label=Follow&style=social" /></a>
 
-Start Tom Assistant by running 'script.py', for more informations, you can check the <a href="https://github.com/Dan149/Tom-assistant/wiki/">project wiki</a>.
+Start Tom Assistant through the terminal or the CMD by running 'script.py', for more informations, you can check the <a href="https://github.com/Dan149/Tom-assistant/wiki/">project wiki</a>.
 
 Hey !
 Thank you for downloading Tom Assistant, I hope you'll like it !
@@ -30,7 +30,7 @@ _____________________________________________________________________________
 
 FRENCH VERSION OF THE README FILE / WHITE PAPER FOR THE FRENCH DEVELOPERS :
 
-Pour lancer Tom, il vous suffit d'ouvrir le fichier 'script.py'.
+Pour lancer Tom, il vous suffit de lancer le fichier 'script.py' via le terminal ou le CMD.
 Il vaut mieux utiliser la version anglaise vu que c'est sur laquelle je travaille le plus,
 les dernières versions du programme sont donc pour l'instant en anglais, toutes les versions ne seront pas adaptées
 en français, seulement les màj majeures. Pour les programmeurs, il est recommandé d'utilser la version anglaise pour modifier
